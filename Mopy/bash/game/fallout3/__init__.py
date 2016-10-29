@@ -58,6 +58,12 @@ nexusUrl = u'http://www.nexusmods.com/fallout3/'
 nexusName = u'Fallout 3 Nexus'
 nexusKey = u'bash.installers.openFallout3Nexus'
 
+# Bsa info
+allow_reset_bsa_timestamps = True
+
+# Load order info
+using_txt_file = False
+
 #--GECK Set information
 class cs:
     shortName = u'GECK'                  # Abbreviated name
